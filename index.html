@@ -1,35 +1,48 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Data Subject Access Request</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #f7f9fc;
+        color: #17233b;
+        font-family: Arial, Helvetica, sans-serif;
+      }
 
-<head>
-  <title>My Website</title>
+      main {
+        box-sizing: border-box;
+        width: min(100%, 760px);
+        margin: 0 auto;
+        padding: 48px 24px;
+      }
 
-  <!-- Paste Kawach Config object(JS) HERE -->
-<script>
-  window.kawach_cookie_banner_config = {
-  "token": "U0ZNeU5UWS5nMmdEZEFBQUFBSnRBQUFBQzJSdmJXRnBibDl1WVcxbGJRQUFBQlZEUTBRdFFVMHRNVEV0TURJdE1qQXlOaTVqYjIxdEFBQUFEMjl5WjJGdWFYcGhkR2x2Ymw5cFpHMEFBQUFrTjJJeFlUZzVOVFl0T1dVM055MDBaRE0xTFRobVpqVXRZMlE1TVRkaU9EVm1PVGxoYmdZQTJ1cWhTNXdCWWdsbUFZQS5WUzl3eEMxUEx2dGhLUXE3TVNvY05kSU8xSXZSa3R4UkJ0b245T2QzVkFN",
-  "themeColor": "#9186d5",
-  "bannerTitle": "We value your privacy",
-  "bannerDescription": "We use cookies to improve your experience.",
-  "privacyUrl": null,
-  "endpoint": "https://in.kawach.ai/api/cookie_consent",
-  "consentExpiryDays": 365,
-  "categories": [
-    "NECESSARY",
-    "ANALYTICS",
-    "MARKETING",
-    "FUNCTIONAL"
-  ],
-  "consentVersion": 1
-};
-</script>
-  <!-- Paste Kawach Banner script(JS) HERE -->
-  <script src="https://kawach-prod-ind-images.s3.ap-south-1.amazonaws.com/cookie_banner/v1.0.0.js"></script>
-</head>
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(1.75rem, 4vw, 2.25rem);
+      }
 
-<body>
-  <!-- Website content -->
-  <div id="kawach_cookie_settings_slot">Cookie Settings</div>
-</body>
+      p {
+        margin: 0 0 32px;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Privacy request</h1>
+      <p>Use the form below to submit a data subject request.</p>
+      <div id="dsar-form-container"></div>
+    </main>
 
+    <script
+      src="https://kawach-staging-images.s3.ap-south-1.amazonaws.com/dsar_form/v1.0.0.js"
+      data-token="vBNX7EJAnm6pYhwohCXWVJiIL6PDM5xl5tzTniQY5ZHXH5Y_BQvdksCnUS2yHVPJtykUwNqUaRI7criZM9bwKg=="
+      data-settings-id="3048c540-b468-4596-adb2-34cbf50d8245"
+      data-api="https://staging.kawach.ai"
+    ></script>
+  </body>
 </html>
